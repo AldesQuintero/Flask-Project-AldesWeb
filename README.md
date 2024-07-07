@@ -15,7 +15,10 @@ $env:FLASK_APP = "aldes.py" # Set the environment variable on Windows
 flask run # Start the Flask development server
 
 
-!project screenshot (https://github.com/AldesQuintero/Flask-Project-AldesWeb/blob/main/Images/Captura%20de%20pantalla%202024-07-07%20005545.png)?raw=true
+# Mi Proyecto Flask
+
+
+![Screenshot of my project in Flaskk](Images/Captura de pantalla 2024-07-07 005545.png)
 
 
 ## Requirements
