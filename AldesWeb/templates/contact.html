@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='/index.css') }}">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="{{ url_for('static', filename='mobile.css') }}">
+  <title>Aldes Quintero | Contact</title>
+</head>
+<body id="body-contact">
+  <header>
+    <nav id="navbar" class="navbar-2">
+      <div class="container">
+        <h1 class="logo-2">Aldes Quintero<span class="primary-text"></span></h1>
+        <ul class="font-nav">
+          <li><a href="{{ url_for('index') }}">Home</a></li>
+          <li><a href="{{ url_for('about_me') }}">About me</a></li>
+          <li class="current"><a href="{{ url_for('contact') }}">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section id="contact-form">
+    <div class="contact-title">
+      <h2>Stay in contact</h2>
+      <p>Leave your message I will contact you soon</p>
+    </div>  
+      <div class="container">
+        <form action="">
+          <div class="form-group">
+            <input type="text" name="name" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <input type="text" email="email" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <textarea name="message" cols="30" rows="10" placeholder="You Message" required></textarea>
+          </div>
+          <button type="submit" class="btn dark big">Submit</button>
+        </form>
+      </div>    
+      
+  </section>
+
+  <footer id="main-footer">
+    <div class="social">
+      <ul>
+        <li><i class="fab fa-instagram"></i></li>
+        <li><i class="fab fa-facebook-square"></i></li>
+        <li><i class="fab fa-twitter-square"></i></li>
+      </ul>
+    </div>
+    <p class="p-3">&copy; Aldes Quintero, 2024</p>
+  </footer>
+
+</body>
+</html>

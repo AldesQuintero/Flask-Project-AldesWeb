@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="{{ url_for('static', filename='mobile.css') }}">
+  <title>Aldes Quintero | Welcome!</title>
+</head>
+<body>
+  <header id="head">
+    <nav id="navbar">
+      <div class="container">
+        <h1 class="logo">Aldes Quintero<span class="primary-text"></span></h1>
+        <ul class="font-nav">
+          <li class="current"><a href="{{ url_for('index') }}">Home</a></li>
+          <li><a href="{{ url_for('about_me') }}">About me</a></li>
+          <li><a href="{{ url_for('contact') }}">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+
+  </header>
+
+  <section id="features">
+    <div class="container p-2 features-content">
+      <!-- <div class="features-content"> -->
+        <h2>Bagdes Acquired <br> press any bagdes</h2>
+        <p class="large">These are some bagdes that I have acquired since May 2023, until today</p>
+      <!-- </div> -->
+    </div>
+    <div class="box">
+      <div class="box-content">
+        <img src="{{ url_for('static', filename='images/python-essentials-1.1.png') }}" alt="">
+
+          <div class="p-2">
+            <h4>Pyhton Essentials 1</h4>
+            <p>Cisco, in collaboration with OpenEDG Python Institute, verifies the earner of this badge successfully completed the Python Essentials 1 course and achieved the student level credentials</p>
+            <a class="btn small dark" href="https://www.credly.com/badges/5019aa0d-2bcc-4fd5-96ac-8f1f7fe0c4d3/public_url">More Info</a>
+          </div>
+      </div>
+    </div>
+    <div class="box">
+      <div class="box-content">
+        <img src="{{ url_for('static', filename='images/python-essentials-2.png') }}" alt="">
+          <div class="p-2">
+            <h4>Python Essentials 2</h4>
+            <p>Cisco, in collaboration with OpenEDG Python Institute, verifies the earner of this badge successfully completed the Python Essentials 2 course and achieved the student level credentials.</p>
+            <a class="btn small dark" href="https://www.credly.com/badges/f95c4107-65be-485a-8182-4e6f8701ac95/public_url">More Info</a>
+          </div>
+      </div>
+    </div>
+    <div class="box">
+      <div class="box-content">
+        <img src="{{ url_for('static', filename='images/networking-devices-and-initial-configuration.png') }}" alt="">
+          <div class="p-2">
+            <h4>Networking Devices and Initial Configuration</h4>
+            <p>Cisco verifies the earner of this badge successfully completed the Networking Devices and Initial Configuration course and achieved this student level credential.</p>
+            <a class="btn small dark" href="https://www.credly.com/badges/6a3e801e-66dd-4d1f-ac0b-85880d9c5559/public_url">More Info</a>
+          </div>
+          
+      </div>
+    </div>
+  </section>
+
+  <div class="clr"></div>
+
+  <section class="box-info">
+    <div class="container">
+      <div class="feature-info-text">
+        <p>You want to contact me, you can leave your message here</p>
+      </div>
+      <div class="feature-info-btn">
+        <div class="btn big dark btn-w">
+          <a href="{{ url_for('about_me') }}">Skilss</a>
+        </div>
+        <div class="btn big light btn-w">
+          <a href="{{ url_for('contact') }}">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="clr"></div>
+
+  <footer id="main-footer">
+    <div class="social">
+      <ul>
+        <li href="www.instagram.com/aldesquintero"><i class="fab fa-instagram"></i></li>
+        <li href="www.facebook.com/aldesquintero"><i class="fab fa-facebook-square"></i></li>
+        <li><i class="fab fa-twitter-square"></i></li>
+      </ul>
+    </div>
+    <p class="p-3">&copy; Aldes Quintero, 2024</p>
+  </footer>
+
+</body>
+</html>
