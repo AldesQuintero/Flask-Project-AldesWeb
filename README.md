@@ -15,12 +15,6 @@ $env:FLASK_APP = "aldes.py" # Set the environment variable on Windows
 flask run # Start the Flask development server
 
 
-# Mi Proyecto Flask
-
-
-![Screenshot of my project Flask](https://github.com/AldesQuintero/Flask-Project-AldesWeb/blob/main/Images/Captura%20de%20pantalla%202024-07-07%20005545.png)
-
-
 ## Requirements
 -Python 3.12
 - Flask 3.0.3
