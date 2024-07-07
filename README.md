@@ -18,7 +18,7 @@ flask run # Start the Flask development server
 # Mi Proyecto Flask
 
 
-![Screenshot of my project in Flaskk](Images/Captura de pantalla 2024-07-07 005545.png)
+![Screenshot of my project Flaskk](Images/Captura de pantalla 2024-07-07 005545.png)?raw=true
 
 
 ## Requirements
