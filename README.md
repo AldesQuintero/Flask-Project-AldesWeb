@@ -14,8 +14,8 @@ To start the application, run the following commands in your terminal:
 $env:FLASK_APP = "aldes.py" # Set the environment variable on Windows
 flask run # Start the Flask development server
 
-https://github.com/AldesQuintero/Flask-Project-AldesWeb/blob/main/Images/Captura%20de%20pantalla%202024-07-07%20005545.png
-!project screenshot
+
+!project screenshot (https://github.com/AldesQuintero/Flask-Project-AldesWeb/blob/main/Images/Captura%20de%20pantalla%202024-07-07%20005545.png)?raw=true
 
 
 ## Requirements
