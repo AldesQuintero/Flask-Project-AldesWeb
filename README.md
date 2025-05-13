@@ -17,7 +17,7 @@ flask run # Start the Flask development server
 
 ## Requirements
 -Python 3.12
-- Flask 3.0.3
+-Flask 3.0.3
 
 ## Facility
 To clone and run this project, follow these steps:
@@ -40,3 +40,6 @@ source venv/bin/activate
 
 # Install the dependencies
 pip install -r requirements.txt
+
+
+![Captura de Pantalla](Images/Captura%20de%20pantalla%202024-07-07%20005545.png)
