@@ -42,5 +42,6 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 
-![Captura de Pantalla](imágenes/Captura de pantalla 2024-07-07 005545.png)
+![Captura de Pantalla](https://raw.githubusercontent.com/AldesQuintero/Flask-Project-AldesWeb/main/Images/Captura%20de%20pantalla%202024-07-07%20005545.png)
+
 
